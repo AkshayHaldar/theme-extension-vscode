@@ -1,0 +1,13 @@
+{
+  "name": "Vibe: Afternoon Focus",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#FFF3E0",
+    "editor.foreground": "#E65100",
+    "activityBar.background": "#FFE0B2",
+    "activityBar.foreground": "#E65100",
+    "sideBar.background": "#FFF3E0",
+    "sideBar.foreground": "#E65100"
+  },
+  "tokenColors": []
+} 

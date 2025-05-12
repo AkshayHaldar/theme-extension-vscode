@@ -1,0 +1,13 @@
+{
+  "name": "Vibe: Morning Calm",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#E3F2FD",
+    "editor.foreground": "#1A237E",
+    "activityBar.background": "#BBDEFB",
+    "activityBar.foreground": "#1A237E",
+    "sideBar.background": "#E3F2FD",
+    "sideBar.foreground": "#1A237E"
+  },
+  "tokenColors": []
+} 

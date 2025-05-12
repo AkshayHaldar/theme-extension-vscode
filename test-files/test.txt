@@ -1,0 +1,2 @@
+This is a plain text file to test the default theme.
+The theme should switch to the time-based theme since there's no language-specific theme for .txt files. 
