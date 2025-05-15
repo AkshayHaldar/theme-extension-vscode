@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@bedrock_org/passport": "^1.0.3-rc.0"
+  }
+}

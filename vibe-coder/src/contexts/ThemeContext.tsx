@@ -14,46 +14,100 @@ const themes: Record<string, Theme> = {
   'morning-calm': {
     name: 'Morning Calm',
     colors: {
-      background: '#E3F2FD',
-      foreground: '#1A237E',
-      primary: '#BBDEFB',
-      secondary: '#1A237E'
+      background: '#BBDEFB',
+      foreground: '#0D47A1',
+      primary: '#1976D2',
+      secondary: '#0D47A1'
     }
   },
   'afternoon-focus': {
     name: 'Afternoon Focus',
     colors: {
-      background: '#FFF3E0',
-      foreground: '#E65100',
-      primary: '#FFE0B2',
-      secondary: '#E65100'
+      background: '#FFE0B2',
+      foreground: '#EF6C00',
+      primary: '#FF9800',
+      secondary: '#EF6C00'
     }
   },
   'night-owl': {
     name: 'Night Owl',
     colors: {
-      background: '#1A237E',
-      foreground: '#E8EAF6',
-      primary: '#0D47A1',
-      secondary: '#E8EAF6'
+      background: '#0D47A1',
+      foreground: '#E3F2FD',
+      primary: '#1976D2',
+      secondary: '#E3F2FD'
     }
   },
   'python-zen': {
     name: 'Python Zen',
     colors: {
-      background: '#E8F5E9',
-      foreground: '#1B5E20',
-      primary: '#C8E6C9',
-      secondary: '#1B5E20'
+      background: '#2E3440',
+      foreground: '#88C0D0',
+      primary: '#81A1C1',
+      secondary: '#8FBCBB'
     }
   },
-  'webdev-flow': {
-    name: 'WebDev Flow',
+  'javascript-jive': {
+    name: 'JavaScript Jive',
     colors: {
-      background: '#E0F7FA',
-      foreground: '#006064',
-      primary: '#B2EBF2',
-      secondary: '#006064'
+      background: '#282C34',
+      foreground: '#F7DF1E',
+      primary: '#E5C100',
+      secondary: '#F7DF1E'
+    }
+  },
+  'typescript-tide': {
+    name: 'TypeScript Tide',
+    colors: {
+      background: '#007ACC',
+      foreground: '#FFFFFF',
+      primary: '#005A9E',
+      secondary: '#FFFFFF'
+    }
+  },
+  'html-hue': {
+    name: 'HTML Hue',
+    colors: {
+      background: '#E34C26',
+      foreground: '#FFFFFF',
+      primary: '#BF360C',
+      secondary: '#FFFFFF'
+    }
+  },
+  'css-cascade': {
+    name: 'CSS Cascade',
+    colors: {
+      background: '#264DE4',
+      foreground: '#FFFFFF',
+      primary: '#1A237E',
+      secondary: '#FFFFFF'
+    }
+  },
+  'rust-rush': {
+    name: 'Rust Rush',
+    colors: {
+      background: '#F5F5F5',
+      foreground: '#BF360C',
+      primary: '#FF7043',
+      secondary: '#BF360C'
+    }
+  },
+  'go-groove': {
+    name: 'Go Groove',
+    colors: {
+      background: '#E3F2FD',
+      foreground: '#0D47A1',
+      primary: '#1976D2',
+      secondary: '#0D47A1'
+    }
+  },
+  'java-jive': {
+    name: 'Java Jive',
+    colors: {
+      background: '#FFF3E0',
+      foreground: '#E65100',
+      primary: '#FFB74D',
+      secondary: '#E65100'
     }
   }
 };
@@ -84,10 +138,19 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       case 'python':
         return 'python-zen';
       case 'javascript':
+        return 'javascript-jive';
       case 'typescript':
+        return 'typescript-tide';
       case 'html':
+        return 'html-hue';
       case 'css':
-        return 'webdev-flow';
+        return 'css-cascade';
+      case 'rust':
+        return 'rust-rush';
+      case 'go':
+        return 'go-groove';
+      case 'java':
+        return 'java-jive';
       default:
         return null;
     }
